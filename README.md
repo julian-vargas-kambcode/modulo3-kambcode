@@ -1,4 +1,2 @@
 # modulo3-kambcode
-Recuerden crear un archivo con su nombre y al interior del archivo escribir el enlace del repositorio que crearon en la tarea 1
-
-Soy camilo
+Este sera el repositorio donde deberan cargar las tareas de este Modulo, recuerden cada uno debe crear una carpeta dentro del repositorio con nombre PRIMERNOMBRE_PRIMERAPELLIDO_#DOCUMENTO
