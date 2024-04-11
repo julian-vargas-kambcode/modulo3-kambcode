@@ -1,1 +1,0 @@
-Oswaldo Mendez - oswaldo-mendez
