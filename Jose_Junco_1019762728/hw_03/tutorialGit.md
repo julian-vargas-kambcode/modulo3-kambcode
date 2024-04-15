@@ -46,6 +46,45 @@ Para empezar a "trackear" tus cambios a la fecha en tus archivos y añadirlos a 
 
 Tu terminal deberia de verse algo similar a la siguiente: 
 
+### Git status
+
+Continuando con el punto anterior, nos abriremos a un nuevo comando que nos permitira ver los archivos pendientes por commit en la rama que deseemos, los archivos no trackeados y ademas los el lugar del repositorio / `path`del repositorio.
+
+Con `Git status` logramos ver todo lo anterior. 
+A continuacion, se mostrara en la terminal el estado de los archivos que añadimos previamente con el `Git add`: 
+
+```
+
+$ git status
+On branch Jose-David-1019762728
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Jose_Junco_1019762728/hw_03/image-1.png
+        new file:   Jose_Junco_1019762728/hw_03/image-2.png
+        new file:   Jose_Junco_1019762728/hw_03/image.png
+        new file:   Jose_Junco_1019762728/hw_03/tutorialGit.md
+        renamed:    David.md -> Jose_Junco_1019762728/notes.md
+
+
+```
+
+## Stage de commit (Git commit -m "nota")
+El siguiente paso para añadir nuestros archivos a un repositorio local es realizar el comando `Git commit -m "nota"`. De esta manera termina de ser integrado en la rama base de nuestro repositorio. 
+
+luego de que introduzcas este comando tu terminal deberia licuir asi: 
+
+```
+
+$ git commit -m "Actualizacion 01 del tutorial"
+[Jose-David-1019762728 1037fb4] Actualizacion 01 del tutorial
+ 5 files changed, 59 insertions(+)
+ create mode 100644 Jose_Junco_1019762728/hw_03/image-1.png
+ create mode 100644 Jose_Junco_1019762728/hw_03/image-2.png
+ create mode 100644 Jose_Junco_1019762728/hw_03/image.png
+ create mode 100644 Jose_Junco_1019762728/hw_03/tutorialGit.md
+ rename David.md => Jose_Junco_1019762728/notes.md (100%)
+
+```
 
 
 
