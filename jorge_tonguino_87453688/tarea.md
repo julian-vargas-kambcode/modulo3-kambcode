@@ -92,8 +92,4 @@ Nota. como ves utilizare un titulo y un lineado.
 ![Markdown](./simbolos_markdown.jpg)
 
 Este trabajo lo realice como presentacion a mi tarea, espero quien lo mire le saque probecho feliz dia.
-
-
-
-
-
+https://www.markdownguide.org/basic-syntax/
