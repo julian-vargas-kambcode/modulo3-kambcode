@@ -12,6 +12,8 @@ En la actualidad, cuando el desarrollo web crece a pasos agigantados, crece la y
 A continuacion, explicaremos los comandos e instrucciones para poder hacer buen uso de nuestra herramienta de versionamiento `GIT` en conjunto con el entorno colaborativo `GITHUB`.
 
 
+# Repositorio local y Agregado con Git
+
 ## Iniciar repositorio GIT local (Git init)
 
 Para comenzar nuestro camino para entender el funcionamiento de Git, necesitaremos una carpeta vacia que contenga un archivo.
@@ -28,8 +30,6 @@ Luego de ello se nos desplegara una terminal (por defecto se desplegara en forma
 A continuacion, escribiremos el comando ***`git init`*** para generar un repositorio en la carpeta seleccionada.
 
 ```
-
-Victus@DESKTOP-U4294GK MINGW64 ~/OneDrive/Documentos/ejemplo_carpeta (master)
 
 $ git init
 Initialized empty Git repository in C:/Users/Victus/OneDrive/Documentos/ejemplo_carpeta/.git/
@@ -86,13 +86,44 @@ $ git commit -m "Actualizacion 01 del tutorial"
 
 ```
 
+# Github, el repositorio remoto
+
+Github es la contraparte de nuestro servidor local creado con `Git`, ya que este se encuentra en un territorio virtual al cual pueden acceder todos los colaboradores integrados en un proyecto.
+Veamos como realizar un repositorio remoto en `Github`.
+
+## Creacion de repositorio en Github
+
+Primero, accederemos al link ***https://github.com*** y alli clickearemos en el boton verde que dice ***new*** en la parte izquierda superior.
+
+![alt text](image-3.png)
+
+Acontinuacion tendremos una pantalla dezplegada que nos permitira elegir el nombre de nuestro repositorio virtual, descripcion, eleccion entre publico y privado (ademas tenemos la opcion de generar un archivo README.dm).
+
+![alt text](image-4.png)
+
+Con el boton de la parte inferior que dice ***Create Repository*** haremos la creaccion de nuestro repositorio.
 
 
+## Añadir repositorio local a uno virtual
 
+Con el comando  `git remote add origin <URL_del_repositorio_en_GitHub>` en nuestra terminal local, podremos añadir la direccion remota del repositorio que hemos creado en el paso anterior para posteriormente añadir los cambios realizados a esta nube. 
 
+En la seccion `...<URL_del_repositorio_en_GitHub>` colocaremos el link del repositorio el cual se encuentra clickeando en el boton verde `code` en esta seccion de la pagina de Github:
 
-    
+![alt text](image-5.png)
 
+Al pegar este link en el comando de la terminal tu terminal debera verse algo similar a la siguiente: 
+
+```
+$ git remote add origin https://github.com/OWNER/REPOSITORY.git
+# Set a new remote
+
+```
+Listo, has agregado la direccion del repositorio al que quieres subir tus avances locales.
+
+## Subir avances locales
+
+Finalmente, con el comando `Git push` podremos mandar los avances hechos previamente en nuestros archivos a el servidor remoto.
 
 
     
