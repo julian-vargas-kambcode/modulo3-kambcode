@@ -12,5 +12,3 @@ area.question('Ingresa la base del triángulo: ', (base) => {
         area.close(); // Cierra la interfaz de lectura de línea
     });
 });
-
-
