@@ -1,11 +1,11 @@
 # tarea de clase 4
 
-## Calculaer el area de un trangulo.
+## Calcular el area de un trangulo.
 
 1. El usuario entrega una medida que como base.
 2. luego introduce la altura.
 
-3. para clacular el *area* del tringulo tomamos el la base por la altura y lo multiplicamos y luego hacemos una division.
+3. para calcular el *area* del tringulo tomamos la base por la altura y lo multiplicamos y luego hacemos una division.
 
 4. Atravez de una impresión en pantalla le decimos al usurio el **area total**.
 
@@ -41,7 +41,7 @@ area.question('Ingresa la base del triángulo: ', (base) => {
 6. Cortar la leche para separar del suero hasta dejar el queso en una masa blanda.
 7. mesclar con un conservante y agregar sal.
 8. Llevar al molde y presionar para obtemer una masa compacta.
-9. enpacar y almacenar para la maduracio.
+9. enpacar y almacenar para la maduracion.
 
 !["Queso prensado"](./CONO%20SACAR%20EL%20QUESO.jpg)
 
