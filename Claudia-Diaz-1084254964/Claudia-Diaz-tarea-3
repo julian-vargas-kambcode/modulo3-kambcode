@@ -53,7 +53,7 @@ Bien, tengo [el sitio web para usted][otro sitio divertido]!
 
 
 Si ya sabe cómo crear enlaces en Markdown, también puede incluir imágenes. La sintaxis es muy similar.
-
+git
 Las imágenes también tienen dos estilos, igual que los enlaces y ambos funcionan de manera similar. La diferencia entre los enlaces y las imágenes es que en el código de las imágenes están precedidas por un símbolo de exclamación ( ! ).
 
 ![(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}]()
