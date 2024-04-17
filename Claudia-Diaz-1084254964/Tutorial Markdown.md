@@ -1,0 +1,87 @@
+Tutorial  Markdown 
+
+**Inicializacion**
+
+Markdown es una forma de escribir contenido para la web. Está escrito en lo que los más “geeks” les gusta llamar “texto plano”, que es exactamente la clase de texto que utilizas para escribir y ver. El texto plano es simplemente el alfabeto normal, con unos cuantos símbolos que son familiares, como los asteriscos ( * ) o comillas simples ( ` ).
+
+A diferencia de las incómodas aplicaciones de procesadores de texto, el texto escrito en Markdown puede ser fácilmente compartido entre diferentes equipos, dispositivos móviles y personas. Se está convirtiendo rápidamente en el estándar para escritos de académicos, científicos, escritores, y muchas más. Sitios web como GitHub o reddit utilizan Markdown para dar formato a sus comentarios.
+
+Dar formato a textos mediante Markdown tiene una curva de aprendizaje suave. No realiza cosas espectaculares como cambiar el tamaño de la fuente, el color o el tipo. Todo sobre lo que se tiene el control es sobre cómo se muestra el texto, haciendo cosas como marcar texto en negrita, crear encabezados u organizar listas de elementos.
+
+¡Si dispone de 10 minutos, puede aprender Markdown!
+
+En cada lección, se le dará una pequeña introducción sobre un determinado concepto de Markdown. Después se le pedirá que complete algunos ejercicios con esos nuevos conocimientos adquiridos.
+
+
+se realiza prueba trabajando letra cursiva
+Ejemplo
+
+(_trabajo en casa_) letra cursiva 
+**GITHUB TRABAJO EN CASA PRUEA 2** negrita 
+
+
+"empezar"
+En general, no importa en qué orden ponga los asteriscos o los guiones bajos. En el recuadro inferior, haga que las palabras "Esto es increible" estén tanto en negrita como cursiva. Coloque los asteriscos **_en la parte exterior_**, simplemente para hacerlo más legible.
+
+
+# Encabezado uno
+
+### Encabezado tres
+
+#### Encabezado tres..
+
+
+Algunas palabras sobre el libro _Cien años..._.
+
+[primer-paso]
+ [www.dailykitten.com]
+
+
+  "la BBC"
+
+
+  Las "referencias" anteriores son los segundos pares de corchetes: [otro lugar] y [otro-enlace]. Al final de un documento en Markdown, esos corchetes están definidos de forma apropiada como enlaces a sitios externos. Una ventaja del tipo de enlace en referencia es que múltiples enlaces al mismo sitio sólo necesitan ser actualizados una sola vez. Por ejemplo, si decidimos hacer que todo el [otro lugar] enlace a otro sitio, sólo tendremos que cambiar un solo enlace de la referencia.
+
+Los enlaces de referencia no aparecen en el archivo final renderizado desde el formato Markdown. Están definidos dándoles el mismo nombre de etiqueta encerrada entre corchetes, seguido de dos puntos y seguido del enlace.
+
+En el recuadro inferior, empezaremos escribiendo algunos enlaces de referencia. ¡Necesitará rellenarlos todos! Llame a la primera etiqueta de referencia "un lugar divertido", y enlácelo a www.zombo.com; haga que el segundo enlace apunte a www.stumbleupon.com.
+
+¿Quiere ver [algo divertido][]?
+
+Bien, tengo [el sitio web para usted][otro sitio divertido]!
+
+
+
+Si ya sabe cómo crear enlaces en Markdown, también puede incluir imágenes. La sintaxis es muy similar.
+
+Las imágenes también tienen dos estilos, igual que los enlaces y ambos funcionan de manera similar. La diferencia entre los enlaces y las imágenes es que en el código de las imágenes están precedidas por un símbolo de exclamación ( ! ).
+
+![(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width='100px'}]()
+
+
+
+![![images](https://<img src="https://pbs.twimg.com/media/EiAuAS8VoAA1-4T?format=jpg&name=large" alt="JuveR" width="300px">)]
+
+
+
+
+
+El primer estilo de imagen es llamado, un enlace en línea a una imagen. Para crear un enlace en línea a una imagen, escriba primero un símbolo de exclamación ( ! ), encierre el texto entre corchetes ( [ ] ), y después encierre el enlace entre paréntesis ( ( ) ). (El texto entre corchetes es una palabra o frase que sirve para describir la imagen para personas ciegas.)
+
+Por ejemplo, para crear un enlace en línea a una imagen a https://octodex.github.com/images/bannekat.png, con un texto que diga, Benjamin Bannekat, debería escribir esto en Markdown: ![Benjamin Bannekat](https://octodex.github.com/images/bannekat.png).
+
+En el recuadro inferior, convierta el enlace en una imagen y rellene el texto entre corchetes para que diga "Un bonito tigre":
+
+
+
+
+¡Muy bien!
+
+Aunque no es necesario añadir el texto entre corchetes para que funcione de igual manera, hará que el contenido creado sea accesible para su audiencia, incluyendo personas que son ciegas, utilizan lectores de pantalla, o no tienen conexiones rápidas de internet.
+
+Para las imágenes incluidas como referencia, seguiremos el mismo patrón que para los enlaces de referencia. Deberá preceder el código de Markdown con un símbolo de exclamación, después dos corchetes para el texto y dos corchetes más para la etiqueta de la imagen. Al final de su página de Markdown, definirá la imagen correspondiente para esa etiqueta, de esta manera: ![El padre fundador][Padre] Al final de su página de Markdown, definirá una imagen para la etiqueta, de esta manera: [Padre]: http://octodex.github.com/images/founding-father.jpg.
+
+En el recuadro inferior, hemos colocado algunas imágenes en referencia; necesitará completarlas, como en la lección anterior. Llame a la etiqueta de la primera referencia "Negro", y enlácela a https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg; haga que la segunda imagen apunte a http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png.
+
+
+
