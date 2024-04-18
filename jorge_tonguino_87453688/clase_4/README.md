@@ -28,7 +28,6 @@ area.question('Ingresa la base del triángulo: ', (base) => {
 
 !["area del un triangulo"](./Algoritmo_de_un_triangulo.jpg)
 
-
 # TRABAJO DE CLASE 4 NUMERO 2
 
 ### COMO HACER EL QUESO.
@@ -43,7 +42,13 @@ area.question('Ingresa la base del triángulo: ', (base) => {
 8. Llevar al molde y presionar para obtemer una masa compacta.
 9. enpacar y almacenar para la maduracion.
 
-!["Queso prensado"](./CONO%20SACAR%20EL%20QUESO.jpg)
+
+!["COMO SACAR EL QUESO"](./como_sacar_el_queso.jpg)
+
+!["como sacar el queso #2](./como_sacar_el_queso_dos.jpg)
+
+
+
 
 Trabajo realizado por:
 
