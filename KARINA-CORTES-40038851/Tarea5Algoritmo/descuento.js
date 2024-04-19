@@ -10,13 +10,13 @@ switch(true) {
         
         total=precioKilo*pesokilo;
         totalPagar = total-(total*10/100);
-        console.log(`Debe Cancelar, ${totalPagar}`);
+        console.log(`Debe Cancelar, $ ${totalPagar}`);
         break;
     
     case(pesokilo > 5 && pesokilo <=10):
         total=precioKilo*pesokilo;
         totalPagar = total-(total*15/100);
-        console.log(`Debe Cancelar, ${totalPagar}`);
+        console.log(`Debe Cancelar, $ ${totalPagar}`);
     break;
 
     case(pesokilo > 10):
@@ -26,7 +26,8 @@ switch(true) {
         break;
     
     case(pesokilo > 0 && pesokilo <= 2):
-        console.log("NO Tiene Descuento");
+        total=precioKilo*pesokilo;
+        console.log(`NO Tiene Descuento, debe caancelar $ ${total}`);
         break;
     }
 
