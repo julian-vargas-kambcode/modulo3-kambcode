@@ -10,6 +10,6 @@
 2. con ls puedo ver los elementos que estan en el interior de la carpeta
 3. con mkdir crear mi Carpeta Tarea3
 4. con nano archivo1.txt cree mi archivo por consola y lo edite
-2. Revisar con Git Status
-3. Dar un git pull para actulizar los cambios
+5. Revisar con Git Status
+6. Dar un git pull para actulizar los cambios
 4. 
