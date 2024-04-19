@@ -1,5 +1,3 @@
-
-
 ## 2. Creación de Diagrama de Flujo de un Proceso Laboral:
 
 Representar visualmente un proceso específico relacionado con el trabajo de cada estudiante utilizando un diagrama de flujo.
@@ -29,4 +27,3 @@ Representar visualmente un proceso específico relacionado con el trabajo de cad
 - Revisión y Edición:
   Después de crear el diagrama de flujo inicial, los estudiantes deberán revisarlo cuidadosamente para detectar posibles errores o áreas de mejora.
   Deberán realizar las ediciones necesarias para mejorar la claridad y precisión del diagrama.
-
