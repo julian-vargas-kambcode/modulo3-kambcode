@@ -22,3 +22,17 @@
 - numeros primos del 1 al 100.
 
 [primos del unoi al cien](./primosDeUnoACien.js)
+
+
+ls -la  ==>me ayuda a buscar todas mis carpetas
+git init ==> repositorio local
+crear archi readme.md
+git add . ==> preparar archivo
+git commit -m "comentario"
+git branch -M main ==> cambiar a main de master
+git remote add origin (http)
+
+PWD DONDE ESTOY
+
+mv ==> cambio el nombr
+ 
