@@ -1,3 +1,5 @@
+const { off } = require("process");
+
 let x = 0;
 const menor = 0;
 let productos = [
@@ -6,17 +8,10 @@ let productos = [
     { nombre: "Zapatos", precio: 50 },
     
 ];
-/*menor() {
-    x= productos.precio;
-    return x;
-}*/
 
-console.log(menor);
-for (let i = 0; i < productos.length; i++) {
-    console.log(`${productos.nombre[i]}`);
-    /* if (productos.precio[i] < 0) {
-         menor = productos;
-     }*/
-
-    console.log(`paso ${productos.nombre}`);
+/*for(const key  in productos ){
+  */
+for(const yee of  productos){
+    menor = yee.precio;
 }
+console.log(menor);
