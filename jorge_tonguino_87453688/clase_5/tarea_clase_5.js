@@ -1,6 +1,6 @@
-const precioRaticulo = require('readline');
+const precioArticulo = require('readline');
 
-const item = precioRaticulo.createInterface({
+const item = precioArticulo.createInterface({
     input: process.stdin,
     output: process.stdout
 });

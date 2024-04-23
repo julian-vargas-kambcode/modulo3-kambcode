@@ -1,19 +1,12 @@
-let frutas1 = ["Manzana", "Plátano", "Naranja"];
-let frutas2 = ["Fresa", "Uva", "Piña"];
+let edades = [];
+let sumaEdades = 0;
 
-for (let i = 0; i < frutas2.length; i++) {
-  frutas1.push(frutas2[i]); //push() Me Ayuda, agregar cada elemento del array frutas1 al final del array frutas2
+let edad = 1;
+while (edad <= 50) {
+    edades.push(edad);
+    sumaEdades += edad; // Sumar la edad actual a la suma total
+    edad++;
 }
 
-console.log(frutas1);
-
-console.log("segundo ejemplo");
-
-let frutas3 = ["Manzana", "Plátano", "Naranja"];
-let frutas4 = ["Fresa", "Uva", "Piña"];
-
-for (let i = 0; i < frutas3.length; i++) {
-  frutas4.push(frutas3[i]); 
-}
-
-console.log(frutas4);
+console.log("Las edades son:", edades.join(", "));
+console.log("La suma de todas las edades es:", sumaEdades);
