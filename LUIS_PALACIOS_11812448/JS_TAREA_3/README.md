@@ -64,7 +64,7 @@ git push origin nombre-de-la-rama
 Git proporciona un sistema robusto para administrar versiones, colaborar y mantener un registro completo de la evolución del código. Su enfoque en copias instantáneas y operaciones locales lo hace poderoso y eficiente.
 
 1. *markdown.es*
-- Leer más https://markdown.es/sintaxis-markdown/
+- [Leer más]( https://markdown.es/sintaxis-markdown/).
 2. **docs.pipz.com**
 - Leer más https://gist.github.com/BattlerHaru/80c0bb5f873deae0589046d4d1b8f963
 3. ***gist.github.com***
