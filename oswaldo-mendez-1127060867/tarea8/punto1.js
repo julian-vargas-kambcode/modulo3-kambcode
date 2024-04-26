@@ -21,8 +21,8 @@ const nombreProducto = productos.map((value) => {
     return value;
 });
 console.log(nombreProducto);
-console.log("Suma total: ", sumaTotal);
 
+console.log('suma total:',sumaTotal);
 
   
 
