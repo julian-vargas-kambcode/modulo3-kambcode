@@ -12,7 +12,6 @@ const totalPagarAplicado = (precio, peso) => {
         console.log(`tienes que pagar sin descuento`)
     }
 }
-
 totalPagarAplicado(10000, 7);
 
 
