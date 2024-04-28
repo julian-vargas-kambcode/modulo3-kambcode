@@ -4,6 +4,14 @@ const estudiantes = [
     { nombre: "Andres", edad: 29, promedio: 8.7 },
 ];
 
-console.log(estudiantes[1]);
-estudiantes[0].edad=25;
-console.log(estudiantes[0]);
+estudiantes.forEach((value, index) =>{
+  if(index==1){
+    console.log(` nombre: ${value.nombre} edad: ${value.edad} promedio: ${value.promedio}`);
+  }
+});
+
+estudiantes.forEach((value, index) =>{
+    if(index==0){
+      console.log(` nombre: ${value.nombre} edad: ${value.edad=25} promedio: ${value.promedio}`);
+    }
+  });
