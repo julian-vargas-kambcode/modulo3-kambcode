@@ -1,69 +1,15 @@
-const estudiantes = [
-    {
-      nombre: "Ana",
-      edad: 20,
-      promedio: 85,
-      genero: "Femenino",
-      carrera: "Ingeniería Civil",
-      ciudad: "Bogotá",
-    },
-    {
-      nombre: "Juan",
-      edad: 22,
-      promedio: 78,
-      genero: "Masculino",
-      carrera: "Medicina",
-      ciudad: "Medellín",
-    },
-    {
-      nombre: "María",
-      edad: 21,
-      promedio: 90,
-      genero: "Femenino",
-      carrera: "Administración de Empresas",
-      ciudad: "Cali",
-    },
-    {
-      nombre: "Pedro",
-      edad: 23,
-      promedio: 82,
-      genero: "Masculino",
-      carrera: "Derecho",
-      ciudad: "Barranquilla",
-    },
-    {
-      nombre: "Laura",
-      edad: 24,
-      promedio: 88,
-      genero: "Femenino",
-      carrera: "Arquitectura",
-      ciudad: "Cartagena",
-    },
-    {
-      nombre: "Carlos",
-      edad: 20,
-      promedio: 75,
-      genero: "Masculino",
-      carrera: "Ingeniería de Sistemas",
-      ciudad: "Santa Marta",
-    },
-    {
-      nombre: "Sofía",
-      edad: 22,
-      promedio: 95,
-      genero: "Femenino",
-      carrera: "Psicología",
-      ciudad: "Pereira",
-    },
-  ];
-  
-  // Encontrar al estudiante con el promedio más alto
-  const estudiantePromedioAlto = estudiantes.reduce((anterior, actual) => anterior.promedio > actual.promedio ? anterior : actual);
-  
-  console.log("Nombre del estudiante con el promedio más alto:", estudiantePromedioAlto.nombre);
-  console.log("Edad del estudiante con el promedio más alto:", estudiantePromedioAlto.edad);
-  
-  // Filtrar estudiantes mayores de 20 años
-  const estudiantesMayores = estudiantes.filter(estudiante => estudiante.edad > 20);
-  
-  console.log("Estudiantes mayores de 20 años:", estudiantesMayores);
+function filtrarNumerosPares(array, callback) {
+  // Utiliza el método filter para filtrar los números pares del array
+  const numerosPares = array.filter(numero => numero % 2 === 0);
+  // Llama al callback con el array de números pares como argumento
+  callback(numerosPares);
+}
+
+function mostrarPares(numerosPares) {
+  // Imprime los números pares en la consola
+  console.log("Números pares:", numerosPares.join(', '));
+}
+
+// Ejemplo de uso:
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+filtrarPares(numeros, mostrarPares);
