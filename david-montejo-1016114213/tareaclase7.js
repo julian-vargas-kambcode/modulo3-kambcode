@@ -16,3 +16,6 @@ console.log("Información completa del primer estudiante después de la actualiz
 console.log("Nombre:", estudiantes[0].nombre);
 console.log("Edad:", estudiantes[0].edad);
 console.log("Promedio:", estudiantes[0].promedio);
+
+
+console.log ("aqui debo completar tarea 7 ")
