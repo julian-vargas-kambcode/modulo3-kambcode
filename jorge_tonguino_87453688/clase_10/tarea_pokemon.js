@@ -31,7 +31,6 @@ async function main() {
       const informacionPokemon = await obtenerInformacionPokemon(nombrePokemon);
 
       if (informacionPokemon) {
-        // Actualizar la información del Pokémon con la información obtenida
         pokemonsActualizados.push({ name: nombrePokemon, ...informacionPokemon });
       }
     }
