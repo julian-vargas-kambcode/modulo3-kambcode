@@ -161,14 +161,23 @@ const estudiantess = [
   },
 ];
 
-
-/*const mayorPromedio = estudiantess.filter(
-  (estudiantess) => estudiantess.promedio > 0
-);
-console.log("MAYOR PROMEDIO", mayorPromedio)*/
+let mayorPromedioIndex=0;
+let mayorPromedio=0;
 
 const mayorEdad = estudiantess.filter(
-  (estudiantess) => estudiantess.edad > 20
-);
+  (estudiante, index) => {
 
+   
+    if(estudiante.promedio> mayorPromedio){
+      mayorPromedio= estudiante.promedio;
+      mayorPromedioIndex= index;
+    }
+    
+    if(estudiante.edad > 20){
+      return estudiante;
+    }
+    
+  }
+);
+console.log( estudiantess[mayorPromedioIndex].nombre, estudiantess[mayorPromedioIndex].edad)
 console.log("MAYORES DE EDAD", mayorEdad)
