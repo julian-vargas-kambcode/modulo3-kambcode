@@ -1,4 +1,4 @@
-/*# Tarea 9
+    # Tarea 9
 
 - **Callbacks en Manejo de Datos:**
 
@@ -9,6 +9,7 @@
   ```javascript
   function sumarArreglo(numeros, callback) {
     // Completa esta función para sumar todos los números del arreglo y llamar al callback con el resultado
+   
   }
   const numeros = [1, 2, 3, 4, 5];
   sumarArreglo(numeros, function (resultado) {
@@ -62,4 +63,4 @@
   const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   
   // Llamar a la función filtrarPares y pasar el callback mostrarPares
-  filtrarPares(numeros, mostrarPares);*/
+  filtrarPares(numeros, mostrarPares);
