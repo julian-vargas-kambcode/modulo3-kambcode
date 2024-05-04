@@ -10,6 +10,9 @@ function main() {
       pokemons.push(...response.data.results);
       //console.log(pokemons);
       const promesas = pokemons.map((pokemon) => {
+        //elimina el campo url
+        //delete pokemon.url;
+        //console.log(pokemon);
         return axios.get(`${API}/${pokemon.name}`);
       });
 
@@ -20,7 +23,7 @@ function main() {
           return { ...pokemon, ...response.data };
         });
 
-        console.log(pokemonsSkills);
+       console.log(pokemonsSkills);
       });
     })
     .catch((error) => {
