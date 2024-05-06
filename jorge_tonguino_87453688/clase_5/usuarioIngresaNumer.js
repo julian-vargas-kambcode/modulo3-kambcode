@@ -17,7 +17,7 @@ function esPrimo(numero) {
   return true;
 }
 
-rl.question("Ingresa un numero", (numero) => {
+rl.question("Ingresa un numero ", (numero) => {
   if (!isNaN(numero)){
     if(esPrimo(parseInt(numero))){
       console.log(numero + " es un número primo.");
